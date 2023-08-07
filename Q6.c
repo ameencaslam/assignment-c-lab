@@ -1,3 +1,5 @@
+// nth fibonacci number
+
 #include <stdio.h>
 
 int main(){
