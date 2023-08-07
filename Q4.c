@@ -1,3 +1,5 @@
+// multiplication table
+
 #include <stdio.h>
 
 int main(){
