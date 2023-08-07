@@ -1,3 +1,5 @@
+// top triangle 1, bot triangle -1, diagonal 0
+
 #include <stdio.h>
 
 void main()
