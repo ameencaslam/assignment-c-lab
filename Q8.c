@@ -1,3 +1,5 @@
+// nth armstrong number
+
 #include <stdio.h>
 #include <math.h>
 #include <limits.h>
