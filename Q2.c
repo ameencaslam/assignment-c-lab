@@ -1,3 +1,5 @@
+// distance between coordinates
+
 #include <stdio.h>
 #include <math.h>
 
