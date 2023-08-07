@@ -1,20 +1,23 @@
-// factorial of a number
+// factorial of a number using recursion
 
 #include <stdio.h>
-
-int main(){
-    int sum=1,i,n;
-
-    printf("Enter a positive integer Number : ");
-    scanf("%d",&n);
-
-    for (i=1;i<=n;i+=1)
+long int fact(int n) 
+{
+    if(n>=1)
     {
-        sum=sum*i;
+        return n*fact(n-1);
     }
+    else
+    {
+        return 1;
+    }
+}
 
-    printf("%d Factorial is %d",n,sum);
-
+int main() 
+{
+    int n;
+    printf("Enter the Number: ");
+    scanf("%d",&n);
+    printf("Factorial of %d = %ld", n, fact(n));
     return 0;
-    
 }
