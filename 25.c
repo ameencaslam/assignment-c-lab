@@ -6,8 +6,8 @@
 void main()
 {
     FILE *ptr1,*ptr2;
-    ptr1=fopen("C:\\Users\\ameen\\Desktop\\C Lab\\odd.txt","w+");
-    ptr2=fopen("C:\\Users\\ameen\\Desktop\\C Lab\\even.txt","w+");
+    ptr1=fopen("FILE_PATH_HERE\\odd.txt","w+");
+    ptr2=fopen("FILE_PATH_HERE\\even.txt","w+");
     if(ptr1==NULL || ptr2==NULL)
     {
         printf("File Error");
